@@ -5,10 +5,15 @@
   "repository": "juliangruber/timers-promises",
   "description": "Timers Promises API, for node 14 and below",
   "scripts": {
-    "test": "prettier-standard && standard && tap test.js"
+    "test": "prettier-standard && standard && tap test.js",
+    "release": "np"
+  },
+  "np": {
+    "yarn": false
   },
   "devDependencies": {
     "abort-controller": "^3.0.0",
+    "np": "^7.5.0",
     "prettier-standard": "^16.4.1",
     "standard": "^16.0.3",
     "tap": "^15.0.9"
