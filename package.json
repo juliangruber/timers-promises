@@ -1,0 +1,15 @@
+{
+  "name": "timers-promises",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/timers-promises",
+  "scripts": {
+    "test": "prettier-standard && standard && tap test.js"
+  },
+  "devDependencies": {
+    "abort-controller": "^3.0.0",
+    "prettier-standard": "^16.4.1",
+    "standard": "^16.0.3",
+    "tap": "^15.0.9"
+  }
+}
