@@ -6,8 +6,17 @@
 
 ```js
 const timers = require('timers-promises')
+const AbortController = require('abort-controller')
 
 await timers.setTimeout(5000)
+
+// With abort
+const controller = new AbortController()
+await timers.setTimeout(10000, 'value', {
+  signal: controller.signal
+})
+// in another context
+controller.abort()
 ```
 
 ## API
