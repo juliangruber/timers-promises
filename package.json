@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "repository": "juliangruber/timers-promises",
+  "description": "Timers Promises API, for node 14 and below",
   "scripts": {
     "test": "prettier-standard && standard && tap test.js"
   },
