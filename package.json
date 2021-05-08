@@ -1,6 +1,6 @@
 {
   "name": "timers-promises",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "juliangruber/timers-promises",
   "description": "Timers Promises API, for node 14 and below",
