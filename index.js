@@ -54,11 +54,9 @@ function promisesSetTimeout (after, value, options = {}) {
     if (!ref) timeout.unref()
     if (signal) {
       oncancel = () => {
-        console.log('ONABORT')
         clearTimeout(timeout)
         reject(new AbortError())
       }
-      console.log('start listening')
       signal.addEventListener('abort', oncancel)
     }
   })
